@@ -1,0 +1,11 @@
+[
+    {"imgUrl": "https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "heading": "New Here?", "description": "Offer you can't resist. Upto 80% off on anything.",
+        "isActive": "active", "blockBackgroundColor": "bg-success", "fontColor": "text-light"},
+    {"imgUrl": "https://images.pexels.com/photos/967933/pexels-photo-967933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
+        "heading": "New Year is here", "description": "get flat 40% on kids wear",
+        "isActive": "", "blockBackgroundColor": "bg-danger",  "fontColor": "text-light"},
+    {"imgUrl": "https://images.pexels.com/photos/2876511/pexels-photo-2876511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
+        "heading": "Just for fun", "description": "25% off on mens fashion.",
+        "isActive": "", "blockBackgroundColor": "bg-info",  "fontColor": "text-light"}
+]

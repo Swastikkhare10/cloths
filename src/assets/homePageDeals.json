@@ -1,0 +1,187 @@
+[
+    {
+        "for": "Deal of the Day",
+        "dealTimeInSeconds" : 86400,
+        "category": "T-shirt",
+        "items": [
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/live-fast-heather-600x800.jpg",
+                "id": "0",
+                "price": "499",
+                "priceAfterDiscount": "399",
+                "discount": "20%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-logo-600x800.jpg",
+                "id": "1",
+                "price": "599",
+                "priceAfterDiscount": "499",
+                "discount": "22%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "2",
+                "price": "699",
+                "priceAfterDiscount": "599",
+                "discount": "26%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/like-donut-olive-600x800.jpg",
+                "id": "3",
+                "price": "799",
+                "priceAfterDiscount": "699",
+                "discount": "34%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "4",
+                "price": "899",
+                "priceAfterDiscount": "799",
+                "discount": "75%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/live-fast-heather-600x800.jpg",
+                "id": "0",
+                "price": "499",
+                "priceAfterDiscount": "399",
+                "discount": "20%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-logo-600x800.jpg",
+                "id": "1",
+                "price": "599",
+                "priceAfterDiscount": "499",
+                "discount": "22%"
+            }
+        ]
+    },
+    {
+        "for": "Top Offers",
+        "category": "Sari",
+        "items": [
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "999",
+                "priceAfterDiscount": "899",
+                "discount": "29%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "1",
+                "price": "1099",
+                "priceAfterDiscount": "999",
+                "discount": "40%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1199",
+                "priceAfterDiscount": "1099",
+                "discount": "29%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "1",
+                "price": "1299",
+                "priceAfterDiscount": "1199",
+                "discount": "40%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1399",
+                "priceAfterDiscount": "1299",
+                "discount": "29%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "1",
+                "price": "1499",
+                "priceAfterDiscount": "1399",
+                "discount": "40%"
+            }
+        ]
+    },
+    {
+        "for": "Men's Fashion",
+        "category": "T-shirt",
+        "items": [
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/live-fast-heather-600x800.jpg",
+                "id": "0",
+                "price": "1599",
+                "priceAfterDiscount": "1499",
+                "discount": "80%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1699",
+                "priceAfterDiscount": "1599",
+                "discount": "29%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "1",
+                "price": "1799",
+                "priceAfterDiscount": "1699",
+                "discount": "40%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1899",
+                "priceAfterDiscount": "1799",
+                "discount": "29%"
+            }
+        ]
+    },
+    {
+        "for": "Woman's Fashion",
+        "category": "T-shirt",
+        "items": [
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/live-fast-heather-600x800.jpg",
+                "id": "0",
+                "price": "1599",
+                "priceAfterDiscount": "1499",
+                "discount": "80%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1699",
+                "priceAfterDiscount": "1599",
+                "discount": "29%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/lion-art-black-600x800.jpg",
+                "id": "1",
+                "price": "1799",
+                "priceAfterDiscount": "1699",
+                "discount": "40%"
+            }
+        ]
+    },
+    {
+        "for": "Kids Special",
+        "category": "T-shirt",
+        "items": [
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/live-fast-heather-600x800.jpg",
+                "id": "0",
+                "price": "1599",
+                "priceAfterDiscount": "1499",
+                "discount": "80%"
+            },
+            {
+                "imgUrl": "https://meclothing.in/wp-content/uploads/2020/05/karma-3-600x800.jpg",
+                "id": "0",
+                "price": "1699",
+                "priceAfterDiscount": "1599",
+                "discount": "29%"
+            }
+        ]
+    }
+]

@@ -1,4 +1,7 @@
+
+
 import { Component } from '@angular/core';
+import AppConsts from './Constants/AppConsts';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cloths';
+  title = AppConsts.BRAND_NAME + AppConsts.TRADEMARK;
 }

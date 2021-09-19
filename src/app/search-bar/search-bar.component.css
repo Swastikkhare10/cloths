@@ -1,0 +1,29 @@
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  background-image: url('https://listimg.pinclipart.com/picdir/s/3-38128_computer-icons-search-box-magnifying-glass-download-search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  padding-left: 25px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}

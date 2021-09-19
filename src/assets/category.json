@@ -1,0 +1,5 @@
+[
+  { "for":"Man",  "items": ["T-shirt", "Suit", "Jeans", "Pant"] },
+  { "for":"Woman","items": ["T-shirt", "Sari", "Kurta"] },
+  { "for":"Kids", "items": ["T-shirt"] }
+]

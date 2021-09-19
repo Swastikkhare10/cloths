@@ -1,0 +1,52 @@
+<div class="row"  style="margin-top: 30px; margin-bottom: 30px;">
+ 
+  <!-- left side category -->
+  <div class="col-md-2">
+    <div style="margin-top: 0px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><h5><b>{{categoryFor}}</b></h5>
+          <ul class="list-group list-group-flush">
+            <li *ngFor="let items of categoryData" class="list-group-item makeThemRed" 
+            >{{items}}</li>
+          </ul>
+        </li>
+      </ul>
+      <div style="margin-top: 30px;">
+        <h5 style="margin-left: 20px;"><b>Filter</b></h5>
+        <ngx-slider style="margin-top: 50px;" [(value)]="minValue"
+          [options]="options"
+          (userChangeEnd)="onUserChangeFilter($event)">
+        </ngx-slider>
+      </div>
+    </div>  
+  </div>
+
+  <!-- -------------------------------------------------------------------------------- -->
+  <!-- Right side category items -->
+  <div class="col-md-10">
+    <div class="responsive" >
+      <span>Showing items >= ₹ {{changeValue}}</span>
+      <ul id="category-item">
+        <li *ngFor="let item of categoryItems">
+          <div class="gallery">
+            <img src={{item.imgUrl}} style="border-radius: 5px;">
+            <div class="bg bg-light text-center icon-color" style="width: 160px; height: 35px; opacity: 0.7;">
+              <div id="category-item-menu">
+                <ul>
+                  <li><i (click)="addToCart(item.id)" style="margin-left: -15px;" class="icon-color fa fa-shopping-cart"></i></li>
+                  <li><i (click)="setFavourite(item.id)" style="margin-left: 40px;" class="icon-color fa fa-heart"></i></li>
+                  <li><i (click)="setFavourite(item.id)" style="margin-left: 95px;" class="icon-color fas fa-palette"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <b style="color: lightgray;"><del>₹ {{item.price}}</del></b> <b style="color: maroon;"> ₹ {{item.priceAfterDiscount}}</b> 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,7 @@
+<div class="search-form">
+  <div class="form-group">
+    <label for="search" class="sr-only">search</label>
+    <input type="text" class="fa fa-search form-control"
+           name="search" id="search" #searchInput (keydown.enter)="search($event.target.value)" placeholder="{{searchBarPlaceHolder}}">
+  </div>
+</div>

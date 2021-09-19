@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand text-success" href="#">
+      <b>{{brandName}}</b>{{trademark}}
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" *ngFor="let menu of navBarMenu">
+          <a class="nav-link" routerLink="category/{{menu}}">{{menu}}</a>
+        </li>
+      </ul>
+    </div>
+    <app-search-bar (searchValue)="search($event)"></app-search-bar>
+    <i style="margin-left: 25px; cursor: pointer;" class="fa fa-user"></i>
+    <i style="margin-left: 25px; cursor: pointer;" class="fa fa-heart"></i>
+  </div>
+</nav>

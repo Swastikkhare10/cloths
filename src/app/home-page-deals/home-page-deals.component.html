@@ -1,0 +1,27 @@
+<div class="deals">
+  
+  <!-- deals with horizontal items  -->
+  <div *ngFor="let itemData of categoryItemData; let i = index" class="homeItems">
+    <h5><b>{{itemData.for}}  </b> <small class="text-secondary" *ngIf="i === 0">     {{countDownTimer}}</small></h5>
+    <div class="scrollmenu">
+      <a *ngFor="let item of itemData.items">
+        <div class="gallery">
+          <img src={{item.imgUrl}} style="border-radius: 5px;">
+          <div class="bg bg-light text-center icon-color" style="width: 160px; height: 35px; opacity: 0.7;">
+            <div id="category-item-menu">
+              <ul>
+                <li><i (click)="addToCart(item.id)" style="margin-left: -15px;" class="icon-color fa fa-shopping-cart"></i></li>
+                <li><i (click)="setFavourite(item.id)" style="margin-left: 40px;" class="icon-color fa fa-heart"></i></li>
+                <li><i (click)="setFavourite(item.id)" style="margin-left: 95px;" class="icon-color fas fa-palette"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <b style="color: lightgray;"><del>₹ {{item.price}}</del></b>  <b style="color: maroon;"> ₹ {{item.priceAfterDiscount}}</b> 
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
